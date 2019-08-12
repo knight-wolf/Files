@@ -1,0 +1,27 @@
+<html>
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+             <style>
+             </style>
+    
+        </head>
+        <body>
+             <i onclick="like()" class="fa fa-thumbs-o-up " style="font-size:24px"></i>&nbsp;<span id="like">0</span>
+             <script>
+             function like(){
+                   event.preventDefault();
+                   var value=document.getElementById('like').innerHTML;
+                   if(value == "0"){
+                        document.getElementById('like')="1";
+
+                      } 
+                     else{
+                      document.getElementById('like')="0";
+                      }
+                     }
+
+              </script>
+    
+         </body>
+</html>

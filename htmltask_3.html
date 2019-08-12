@@ -1,0 +1,49 @@
+<html>
+        <head>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <style>
+                .fa {
+                  font-size: 50px;
+                  cursor: pointer;
+                  user-select: none;
+                }
+                
+                .fa:hover {
+                  color: darkblue;
+                }
+                </style>
+                </head>
+                <body>
+                <i onclick="myFunction(this)"  id="chng" class="fa fa-thumbs-up" style="color:black"></i>
+                
+                <script>
+                function myFunction(x) {
+                    event.preventDefault();
+                    var elem = document.getElementById("chng");
+                    if(elem.style.color!= "black")
+                    {
+                        elem.style.color = "black";
+                    }
+                    else{
+                        elem.style.color = "red";
+                    }
+                }
+                </script>
+                </body>
+                </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
